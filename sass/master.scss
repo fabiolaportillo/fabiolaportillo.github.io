@@ -1,0 +1,388 @@
+@media (max-width: 991px) {
+  :root{
+  	font-size: 14px !important;
+  }
+  .cuadro-foto{
+	height: 22em !important;
+	width: 22em !important;
+	background-size: 25em 28em !important;
+	}
+   .foto-col{
+		width: 100% !important;
+	}
+
+    nav, header .col.xl6{
+		display: none !important;
+	}
+	.logo{
+		width: 12em !important;
+		height: 10em !important;
+		margin-bottom: 2em;
+	}
+	.elcentro{
+		text-align: center;
+	}
+
+
+}
+
+@media (min-width: 1201px) {
+  :root{
+  	font-size: 16px !important;
+  }
+}
+
+h1, h2,  h3 {
+	font-family: 'Lobster Two', cursive;
+}
+
+p,li{
+	font-family: 'Oswald', sans-serif;
+}
+
+section{
+	padding: 4em 0;
+}
+
+header li{
+	font-family: 'Lobster Two', cursive !important;
+	& a:hover{
+		color: #FEFF89;
+		transition: .3s;
+		text-decoration: none;
+	}
+}
+
+.yello{
+	color: #FF9F68;
+}
+.main-banner{
+	height: 100vh;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef5777+4,f53b57+99 */
+background: #ef5777; /* Old browsers */
+background: -moz-linear-gradient(left, #ef5777 4%, #f53b57 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ef5777 4%,#f53b57 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ef5777 4%,#f53b57 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5777', endColorstr='#f53b57',GradientType=1 ); /* IE6-9 */
+	color: white;
+	& .banner{
+		text-align: center;
+		margin: -40px auto;
+
+		& h1{
+			font-size: 4em;
+		}
+
+		& h2{
+			font-size: 2em;
+			font-family: 'Oswald', sans-serif;
+		}
+
+		
+
+		& .circle{
+			border-radius: 500px;
+			background: url("../img/perfil.jpeg");
+			background-size: 250px 300px;
+			background-position: 20px 0;
+			height: 15em;
+			width: 15em;
+			margin: 0 auto;
+			box-shadow: 0 14px 28px  #CB0020 ;
+		}
+	}
+}
+
+.logo{
+	height: 12em;
+	width: 15em;
+	display: inline-block;
+}
+
+li{
+	display: inline-block;
+	padding: 15px;
+	font-size: 1.5em;
+}
+
+nav,ul{
+	display: inline-block;
+	margin-right: 0px;
+	margin-top: 20px;
+}
+
+.btn{
+	padding: 10px;
+	background: #F86078;
+
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+i{
+	font-size: 3em !important;
+	margin-top: 1em;
+
+}
+
+#bio{
+	padding: 50px;
+	& ol{
+		text-align: left;
+	}
+	& li{
+		font-size: 1em;
+	}
+}
+
+#bio h1{
+	color: #f53b57;
+	font-size: 4em;
+
+}
+
+.cuadro-foto{
+	height: 32em;
+	width: 32em;
+	border-radius: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	background-image: url(../img/fabiola.jpeg);
+	background-size: 520px 525px;
+	margin: 0 auto;
+}
+
+#portafolio{
+	background-color: #88304E;
+	color: white;
+	text-align: center;
+
+	& h1{
+		font-size: 5em;
+		margin: .5em 0;
+	}
+	& h2{
+		margin: 1em 0;
+		font-size: 3em;
+	}
+	& .col{
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+#contact{
+	background-image: url(../img/contact.jpg);
+	background-size: 1400px 1000px;
+	background-attachment: fixed;
+	color: #333333;
+	text-align: center;
+
+	& li{
+		display: block;
+	}
+	& h1{
+		font-size: 3.5em;
+	}
+	& .btn{
+		width: 30%;
+		margin: 0 auto;
+	}
+	& .btn:hover{
+		background-color: white !important;
+		transition: .3s;
+		border: 2px solid #444444;
+
+	}
+	& .btn:hover i{
+		color: #444444 !important;
+		
+	}
+	& i{
+			margin: 0 auto !important;
+	display: inline !important;
+	}
+	
+}
+
+.card{
+	background-color: white;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	width: 70%;
+	padding: 1em 0;
+    margin: 0 auto;
+}
+
+
+
+.instagram{
+	color: white;
+}
+
+.foto{
+	height: 300px;
+	width: 80%;
+	background-size: 320px 350px;
+	border-radius: 25px !important;
+	margin: 1em 0;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.foto:before{
+	background: url(background.png) 0 0 repeat;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+#foto1{
+	background-image: url(../img/foto1.jpg);
+	
+}
+
+#foto2{
+	background-image: url(../img/foto2.jpg);
+	
+}
+
+#foto3{
+	background-image: url(../img/foto3.jpg);
+}
+
+#foto4{
+	background-image: url(../img/foto4.jpg);
+
+}
+
+#foto5{
+	background-image: url(../img/foto5.jpg);
+;
+}
+
+#foto6{
+	background-image: url(../img/foto6.jpg);
+;
+}
+
+#foto7{
+	background-image: url(../img/foto7.jpg);
+;
+}
+#foto8{
+	background-image: url(../img/foto8.jpg);
+;
+}
+#foto9{
+	background-image: url(../img/foto9.jpg);
+;
+}
+#foto10{
+	background-image: url(../img/foto10.jpg);
+;
+}
+#foto11{
+	background-image: url(../img/foto11.jpg);
+;
+}
+
+#foto12{
+	background-image: url(../img/foto12.jpg);
+;
+}
+
+#foto13{
+	background-image: url(../img/foto13.jpg);
+;
+}
+
+#foto14{
+	background-image: url(../img/foto14.jpg);
+;
+}
+
+#foto15{
+	background-image: url(../img/foto15.jpg);
+;
+}
+
+#foto16{
+	background-image: url(../img/foto16.jpg);
+;
+}
+
+#foto17{
+	background-image: url(../img/foto17.jpg);
+;
+}
+
+#foto18{
+	background-image: url(../img/foto18.jpg);
+;
+}
+#foto19{
+	background-image: url(../img/foto19.jpg);
+;
+}
+
+#foto20{
+	background-image: url(../img/foto20.jpg);
+;
+}
+
+#foto21{
+	background-image: url(../img/foto21.jpg);
+;
+}
+
+#foto22{
+	background-image: url(../img/foto22.jpg);
+;
+}
+
+#foto23{
+	background-image: url(../img/foto23.jpg);
+;
+}
+
+#foto24{
+	background-image: url(../img/foto24.jpg);
+;
+}
+
+#foto25{
+	background-image: url(../img/foto25.jpg);
+;
+}
+
+
+#foto26{
+	background-image: url(../img/foto26.jpg);
+;
+}
+
+#foto27{
+	background-image: url(../img/foto27.jpg);
+;
+}
+
+
+#foto28{
+	background-image: url(../img/foto28.jpg);
+;
+}
+
+
+#foto29{
+	background-image: url(../img/foto29.jpg);
+;
+}
+
+
+#foto30{
+	background-image: url(../img/foto30.jpg);
+;
+}
