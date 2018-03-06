@@ -32,7 +32,7 @@
     margin-bottom: 2em; }
 
   .elcentro {
-    text-align: center; } }
+    margin: 0 auto !important; } }
 @media (min-width: 1201px) {
   :root {
     font-size: 16px !important; } }
