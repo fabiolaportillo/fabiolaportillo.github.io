@@ -3,9 +3,9 @@
     font-size: 14px !important; }
 
   .cuadro-foto {
-    height: 22em !important;
-    width: 22em !important;
-    background-size: 25em 28em !important; }
+    height: 20em !important;
+    width: 16em !important;
+    background-size: 20em 22em !important; }
 
   .foto-col {
     width: 100% !important; }
@@ -138,7 +138,7 @@ i {
     justify-content: center; }
 
 #contact {
-  background-image: url(../img/contact.jpg);
+  background-image: url(../img/contact.JPG);
   background-size: 1400px 1000px;
   background-attachment: fixed;
   color: #333333;
