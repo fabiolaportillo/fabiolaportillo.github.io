@@ -1,6 +1,19 @@
 @media (max-width: 991px) {
+  
   :root {
     font-size: 14px !important; }
+  .card{
+    width: 100% !important;
+    
+  }
+  
+  .card ul{
+    text-align: left;
+  }
+  
+  #contact .btn{
+    width: 70% !important;
+  }
 
   .cuadro-foto {
     height: 20em !important;
