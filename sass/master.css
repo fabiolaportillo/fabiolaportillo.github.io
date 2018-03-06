@@ -78,7 +78,7 @@ header li {
       font-size: 2em;
       font-family: 'Oswald', sans-serif; }
     .main-banner .banner .circle {
-      border-radius: 500px;
+      border-radius: 5000px;
       background: url("../img/perfil.jpeg");
       background-size: 250px 300px;
       background-position: 20px 0;
