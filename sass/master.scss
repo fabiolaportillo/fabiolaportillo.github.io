@@ -2,11 +2,23 @@
   :root{
   	font-size: 14px !important;
   }
-  .cuadro-foto{
-	height: 22em !important;
-	width: 22em !important;
-	background-size: 25em 28em !important;
-	}
+    .card{
+    width: 100% !important;
+    
+  }
+  
+  .card ul{
+    text-align: left;
+  }
+
+  
+  #contact .btn{
+    width: 70% !important;
+  }
+  .cuadro-foto {
+    height: 20em !important;
+    width: 16em !important;
+    background-size: 20em 22em !important; }
    .foto-col{
 		width: 100% !important;
 	}
@@ -19,9 +31,8 @@
 		height: 10em !important;
 		margin-bottom: 2em;
 	}
-	.elcentro{
-		text-align: center;
-	}
+	 .elcentro {
+    margin: 0 auto !important; } 
 
 
 }
@@ -59,11 +70,9 @@ header li{
 .main-banner{
 	height: 100vh;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef5777+4,f53b57+99 */
-background: #ef5777; /* Old browsers */
-background: -moz-linear-gradient(left, #ef5777 4%, #f53b57 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #ef5777 4%,#f53b57 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #ef5777 4%,#f53b57 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5777', endColorstr='#f53b57',GradientType=1 ); /* IE6-9 */
+background-image: url(../img/contact21.png);
+background-size: 1300px 800px;
+
 	color: white;
 	& .banner{
 		text-align: center;
@@ -84,14 +93,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5777', end
 			border-radius: 500px;
 			background: url("../img/perfil.jpeg");
 			background-size: 250px 300px;
-			background-position: 20px 0;
 			height: 15em;
 			width: 15em;
 			margin: 0 auto;
-			box-shadow: 0 14px 28px  #CB0020 ;
+			box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 		}
 	}
 }
+
+header nav{
+	margin-left: 18em !important;
+}
+
+  #bio{
+  	display: none
+  }
 
 .logo{
 	height: 12em;
@@ -155,7 +171,10 @@ i{
 }
 
 #portafolio{
-	background-color: #88304E;
+
+	background-image: url(../img/contact.JPG);
+	background-attachment: fixed;
+	background-size: 100% auto;
 	color: white;
 	text-align: center;
 
@@ -176,8 +195,8 @@ i{
 }
 
 #contact{
-	background-image: url(../img/contact.jpg);
-	background-size: 1400px 1000px;
+	background-image: url(../img/contact2.jpg);
+	background-size: 1300px;
 	background-attachment: fixed;
 	color: #333333;
 	text-align: center;
@@ -193,7 +212,7 @@ i{
 		margin: 0 auto;
 	}
 	& .btn:hover{
-		background-color: white !important;
+		background-color: rgba(255, 255, 255 ,0.8);
 		transition: .3s;
 		border: 2px solid #444444;
 
@@ -209,8 +228,14 @@ i{
 	
 }
 
+
+video{
+	margin: 2em 0;
+}
+
 .card{
-	background-color: white;
+
+	background-color: rgba(255, 255, 255 ,0.8);
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	width: 70%;
 	padding: 1em 0;
@@ -227,7 +252,6 @@ i{
 	height: 300px;
 	width: 80%;
 	background-size: 320px 350px;
-	border-radius: 25px !important;
 	margin: 1em 0;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
@@ -239,150 +263,92 @@ i{
   transform: rotate(30deg);
 }
 
-#foto1{
-	background-image: url(../img/foto1.JPG);
-	
-}
+#foto1 {
+  background-image: url(../img/foto1.JPG); }
 
-#foto2{
-	background-image: url(../img/foto2.JPG);
-	
-}
+#foto2 {
+  background-image: url(../img/foto2.JPG); }
 
-#foto3{
-	background-image: url(../img/foto3.JPG);
-}
+#foto3 {
+  background-image: url(../img/foto3.JPG); }
 
-#foto4{
-	background-image: url(../img/foto4.jpg);
+#foto4 {
+  background-image: url(../img/foto4.jpg); }
 
-}
+#foto5 {
+  background-image: url(../img/foto5.jpg); }
 
-#foto5{
-	background-image: url(../img/foto5.jpg);
-;
-}
+#foto6 {
+  background-image: url(../img/foto6.JPG); }
 
-#foto6{
-	background-image: url(../img/foto6.jpg);
-;
-}
+#foto7 {
+  background-image: url(../img/foto7.jpg); }
 
-#foto7{
-	background-image: url(../img/foto7.jpg);
-;
-}
-#foto8{
-	background-image: url(../img/foto8.jpg);
-;
-}
-#foto9{
-	background-image: url(../img/foto9.jpg);
-;
-}
-#foto10{
-	background-image: url(../img/foto10.jpg);
-;
-}
-#foto11{
-	background-image: url(../img/foto11.jpg);
-;
-}
+#foto8 {
+  background-image: url(../img/foto8.JPG); }
 
-#foto12{
-	background-image: url(../img/foto12.jpg);
-;
-}
+#foto9 {
+  background-image: url(../img/foto9.JPG); }
 
-#foto13{
-	background-image: url(../img/foto13.jpg);
-;
-}
+#foto10 {
+  background-image: url(../img/foto10.JPG); }
 
-#foto14{
-	background-image: url(../img/foto14.jpg);
-;
-}
+#foto11 {
+  background-image: url(../img/foto11.JPG); }
 
-#foto15{
-	background-image: url(../img/foto15.jpg);
-;
-}
+#foto12 {
+  background-image: url(../img/foto12.JPG); }
 
-#foto16{
-	background-image: url(../img/foto16.jpg);
-;
-}
+#foto13 {
+  background-image: url(../img/foto13.JPG); }
 
-#foto17{
-	background-image: url(../img/foto17.jpg);
-;
-}
+#foto14 {
+  background-image: url(../img/foto14.jpg); }
 
-#foto18{
-	background-image: url(../img/foto18.jpg);
-;
-}
-#foto19{
-	background-image: url(../img/foto19.jpg);
-;
-}
+#foto15 {
+  background-image: url(../img/foto15.jpg); }
 
-#foto20{
-	background-image: url(../img/foto20.jpg);
-;
-}
+#foto16 {
+  background-image: url(../img/foto16.jpg); }
 
-#foto21{
-	background-image: url(../img/foto21.jpg);
-;
-}
+#foto17 {
+  background-image: url(../img/foto17.jpg); }
 
-#foto22{
-	background-image: url(../img/foto22.jpg);
-;
-}
+#foto18 {
+  background-image: url(../img/foto18.jpg); }
 
-#foto23{
-	background-image: url(../img/foto23.jpg);
-;
-}
+#foto19 {
+  background-image: url(../img/foto19.jpg); }
 
-#foto24{
-	background-image: url(../img/foto24.jpg);
-;
-}
+#foto20 {
+  background-image: url(../img/foto20.jpg); }
 
-#foto25{
-	background-image: url(../img/foto25.jpg);
-;
-}
+#foto21 {
+  background-image: url(../img/foto21.jpg); }
 
+#foto22 {
+  background-image: url(../img/foto22.jpg); }
 
-#foto26{
-	background-image: url(../img/foto26.jpg);
-;
-}
+#foto23 {
+  background-image: url(../img/foto23.jpg); }
 
-#foto27{
-	background-image: url(../img/foto27.jpg);
-;
-}
+#foto24 {
+  background-image: url(../img/foto24.jpg); }
 
+#foto25 {
+  background-image: url(../img/foto25.jpg); }
 
-#foto28{
-	background-image: url(../img/foto28.jpg);
-;
-}
+#foto26 {
+  background-image: url(../img/foto26.jpg); }
 
+#foto27 {
+  background-image: url(../img/foto27.jpg); }
 
-#foto29{
-	background-image: url(../img/foto29.jpg);
-;
-}
+#foto28 {
+  background-image: url(../img/foto28.jpg); }
 
+#foto29 {
+  background-image: url(../img/foto29.jpg); }
 
-#foto30{
-	background-image: url(../img/foto30.jpg);
-;
-}
+#foto30 {
+  background-image: url(../img/foto30.jpg); }

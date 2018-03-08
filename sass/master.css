@@ -1,19 +1,15 @@
 @media (max-width: 991px) {
-  
   :root {
     font-size: 14px !important; }
-  .card{
-    width: 100% !important;
-    
-  }
-  
-  .card ul{
-    text-align: left;
-  }
-  
-  #contact .btn{
-    width: 70% !important;
-  }
+
+  .card {
+    width: 100% !important; }
+
+  .card ul {
+    text-align: left; }
+
+  #contact .btn {
+    width: 70% !important; }
 
   .cuadro-foto {
     height: 20em !important;
@@ -58,16 +54,8 @@ header li {
 .main-banner {
   height: 100vh;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef5777+4,f53b57+99 */
-  background: #ef5777;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #ef5777 4%, #f53b57 99%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #ef5777 4%, #f53b57 99%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #ef5777 4%, #f53b57 99%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5777', endColorstr='#f53b57',GradientType=1 );
-  /* IE6-9 */
+  background-image: url(../img/contact21.png);
+  background-size: 1300px 800px;
   color: white; }
   .main-banner .banner {
     text-align: center;
@@ -78,14 +66,19 @@ header li {
       font-size: 2em;
       font-family: 'Oswald', sans-serif; }
     .main-banner .banner .circle {
-      border-radius: 5000px;
+      border-radius: 500px;
       background: url("../img/perfil.jpeg");
       background-size: 250px 300px;
-      background-position: 20px 0;
       height: 15em;
       width: 15em;
       margin: 0 auto;
-      box-shadow: 0 14px 28px #CB0020; }
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+header nav {
+  margin-left: 18em !important; }
+
+#bio {
+  display: none; }
 
 .logo {
   height: 12em;
@@ -135,7 +128,9 @@ i {
   margin: 0 auto; }
 
 #portafolio {
-  background-color: #88304E;
+  background-image: url(../img/contact.JPG);
+  background-attachment: fixed;
+  background-size: 100% auto;
   color: white;
   text-align: center; }
   #portafolio h1 {
@@ -151,8 +146,8 @@ i {
     justify-content: center; }
 
 #contact {
-  background-image: url(../img/contact.JPG);
-  background-size: 1400px 1000px;
+  background-image: url(../img/contact2.jpg);
+  background-size: 1300px;
   background-attachment: fixed;
   color: #333333;
   text-align: center; }
@@ -164,7 +159,7 @@ i {
     width: 30%;
     margin: 0 auto; }
   #contact .btn:hover {
-    background-color: white !important;
+    background-color: rgba(255, 255, 255, 0.8);
     transition: .3s;
     border: 2px solid #444444; }
   #contact .btn:hover i {
@@ -173,8 +168,11 @@ i {
     margin: 0 auto !important;
     display: inline !important; }
 
+video {
+  margin: 2em 0; }
+
 .card {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   width: 70%;
   padding: 1em 0;

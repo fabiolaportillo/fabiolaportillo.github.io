@@ -12,6 +12,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Fabiola Portillo</title>
 	</head>
+
+
 	<body>
 		<div class="main-banner">
 			<header>
@@ -24,13 +26,16 @@
 							<nav>
 							<ul>		
 								<li>
-									<a href="#bio">Experiencia</a>
+									<a href="#bio"  id="bio2" >Experiencia</a>
 								</li>
 								<li>
 									<a href="#portafolio">Portafolio</a>
 								</li>
 								<li>
 									<a href="#contact">Contacto</a>
+								</li>
+								<li>
+									<a href="#video">Videos</a>
 								</li>
 							</ul>
 							</nav>
@@ -41,16 +46,10 @@
 			<div class="banner">
 
 				<div class="circle foto fadeIn animated">
-					
 				</div>
 				<h1>Fabiola Portillo</h1>
 				<h2>Fotografia Profesional</h2>
 				<i class="material-icons animated infinite bounce">keyboard_arrow_down</i>
-
-<!-- 	
-				<div class="btn">
-					<a href="">CONOCE MIS TRABAJOS!</a>
-				</div> -->
 			</div>
 		</div>
 	
@@ -59,22 +58,22 @@
 			<div class="container">
 				<div class="row">
 					<div class="col col-xl-6 col-md-12 text-center">
-						<h1>Biografia</h1>
+						<h1>Biografía</h1>
 						<p>
 							Hola! Mi nombre es Fabiola Portillo.
 							Conoce mi experiencia!
 							<ol>
 								<li>
-								 4 Meses de Pasantías en el Diario Panorama (Venezuela) , Diario de mayor circulación a nivel regional, desempeñando el cargo de Reportera Grafica .
+									 Pasantías en el Diario Panorama (Venezuela) , Diario de mayor circulación a nivel regional, desempeando el cargo de Reportera Grafica .
 								</li>
 								<li>
-									 Diario la Verdad (Venezuela), 2do Diario de circulación a nivel Regional, 5 Años como Reportera Grafica 
+									Diario la Verdad (Venezuela), 2do Diario de circulación a nivel Regional, 5 Años como Reportera Grafica 
 								</li>
 								<li>
-								 DiarioContraste.com, Diario de Noticias Digital, desempeñando el cargo de Periodista Integral.
+									DiarioContraste.com, Diario de Noticias Digital, desempeñando el cargo de Periodista Integral.
 								</li>
 								<li>
-								 Somos Pic2go, Agencia de Eventos de Fotografía Digital desempeñando el cargo de Fotógrafo de Primera Línea
+									Somos Pic2go(Panama), Agencia de Eventos de Fotografía Digital desempeñando el cargo de Fotógrafo de Primera Línea
 								</li>
 								<li>
 									Actualmente Fotógrafa Profesional para todo tipo de Eventos Sociales
@@ -93,7 +92,7 @@
 
 		<section id="portafolio">
 			<div class="container">
-				<h1>Portafolio</h1>
+				<h2>Modelaje</h2>
 				<div class="row">
 					<div class="col col-12 col-lg-4">
 						<div class="foto" id="foto1">
@@ -234,7 +233,7 @@
 					</div>
 				</div>
 				<h2>
-					Trabajo de Periodismo
+					Periodismo
 				</h2>	
 				<div class="row">
 						<div class="col col-12 col-lg-4">
@@ -269,6 +268,25 @@
 							
 						</div>
 					</div>
+
+					<div class="row" id="video">
+						<h2 style="margin: 1em auto;">Videos</h2>
+						<div class="col col-12">
+							<video src="img/video1.mp4" type="video/mp4" controls>
+							</video>
+						</div>
+						<div class="col col-12">
+							<video src="img/video2.mp4" type="video/mp4" controls>
+							</video>
+						</div>
+						<div class="col col-12">
+							<video src="img/video3.mp4" controls></video>
+						</div>
+						<div class="col col-12">
+							<video src="img/video4.mp4" controls></video>
+						</div>
+						
+					</div>
 				</div>
 			</div>
 		</section>
@@ -278,24 +296,66 @@
 				<div class="row">
 					<div class="col xl4">
 						<div class="card">
-							<h1>Contactame</h1>
+							<h1>Contáctame!</h1>
 							<ul>
 								<li>
-									<span class="yello">Telefono</span>: +56 9 31348405
+									<span class="yello">Teléfono</span>: +56 9 31348405
 								</li>
 								<li>
 									<span class="yello">Email</span>: fabiportillo@gmail.com
 								</li>
 								<li>
-									<span class="yello">Direccion</span>: Los Olmos 3256 Comuna Macul
+									<span class="yello">Dirección</span>: Los Olmos 3256 Comuna Macul
 								</li>
 							</ul>
-							<a href="https://www.instagram.com/fpmfotografia/" target="_blank"><div class="btn"><i class="instagram icon"></i></div></a>
+							<a href="https://www.instagram.com/fpmfotografia/" target="_blank"><div class="btn"><i class="instagram icon"></i><span style="display: block; font-weight: bold;">@fpmfotografia</span></div></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+				<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+			<script>
+		var biography =  document.getElementById("bio2");
+		biography.addEventListener('click', function(){
+			document.getElementById('bio').style.display = 'block';
+					 })
+
+  
+    var clickeado = false;
+     var rela = $("[href='#contact']").click(function(){
+        clickeado = true;
+     });  
+     var links = $("[href]");
+     links.click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+             var $target = $(this.hash);
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+ 
+             if ($target.length) {
+                 var targetOffset = $target.offset().top;
+                 
+                 if (clickeado){
+                     $('html,body').animate({scrollTop: targetOffset+800}, 1000); 
+                     clickeado = false;
+                 } 
+                 else{
+                     $('html,body').animate({scrollTop: targetOffset}, 2000);
+                 }   
+            
+                   $("#navMobile").hide('slow');
+                 
+              
+               return false;
+            }
+      
+       }
+   });
+	</script>
 		
 	</body>
 	</html>
