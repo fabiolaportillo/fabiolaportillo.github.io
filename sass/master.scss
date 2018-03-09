@@ -71,7 +71,8 @@ header li{
 	height: 100vh;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef5777+4,f53b57+99 */
 background-image: url(../img/contact21.png);
-background-size: 1300px 800px;
+background-size: 100% 100%;
+background-attachment: fixed;
 
 	color: white;
 	& .banner{
@@ -196,7 +197,7 @@ i{
 
 #contact{
 	background-image: url(../img/contact2.jpg);
-	background-size: 1300px;
+	background-size: 100% 100%;
 	background-attachment: fixed;
 	color: #333333;
 	text-align: center;
